@@ -1,2 +1,2 @@
 # reactapp
-something that i created while learning raect
+something that i created while learning react
