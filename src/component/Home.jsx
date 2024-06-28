@@ -9,7 +9,7 @@ const recipes = [
     { id: 1, title: 'Pasta Carbonara', image: pastaCarbonaraImage },
     { id: 2, title: 'Chocolate Cake', image: chocolateCakeImage },
     { id: 3, title: 'Chicken Curry', image: chickenCurryImage }
-    // Add more recipes with their respective imported images
+    
 ];
 
 const Home = () => {
@@ -24,17 +24,13 @@ const Home = () => {
         transition: 'transform 0.5s ease'
     };
 
-    const parallaxStyle = {
-        position: 'relative',
-        height: '100%',
-        overflow: 'hidden'
-    };
+ 
 
     const imageStyle = {
         width: '100%',
         height: 'auto',
         transform: 'scale(1.2)', /* Adjust the scale factor as needed */
-        transition: 'transform 0.5s ease'
+       
     };
 
     const contentStyle = {
@@ -63,8 +59,7 @@ const Home = () => {
         textDecoration: 'none',
         border: '2px solid #333',
         borderRadius: '5px',
-        transition: 'all 0.3s ease',
-        cursor: 'pointer',
+       
        
     };
 
